@@ -1,6 +1,5 @@
 ---
 deployment:
   tasks:
-    - /bin/cp -R ./* /home/f1x8hb6tvoso/msswebsite/
-
-
+    - export DEPLOYPATH=/home/f1x8hb6tvoso/public_html/msswebsite/
+    - /bin/cp -R * $DEPLOYPATH
