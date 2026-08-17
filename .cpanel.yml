@@ -1,0 +1,4 @@
+---
+deployment:
+  tasks:
+    - /bin/cp -R ./* /home/f1x8hb6tvoso/msswebsite/
