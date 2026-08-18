@@ -1,3 +1,4 @@
+---
 deployment:
   tasks:
     - export DEPLOYPATH=/home/f1x8hb6tvoso/public_html/msswebsite/
