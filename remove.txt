@@ -1,4 +1,6 @@
-Needed: index, about, services, contact, team
+the content on each page seems very small, can we add some more content. Also add some animations to look more like a classy music school website.
+
+10:44 Needed: index, about, services, contact, team
 faq, detailed services, terms, privacy, 
 
 Done: All
