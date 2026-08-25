@@ -3,3 +3,9 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/f1x8hb6tvoso/public_html/msswebsite/
     - /bin/rsync -av --exclude='.git' ./ $DEPLOYPATH
+    - /bin/chmod 755 $DEPLOYPATH
+    - /bin/find $DEPLOYPATH -type d -exec chmod 755 {} +
+    - /bin/find $DEPLOYPATH -type f -exec chmod 644 {} +
+    - /bin/chmod 755 $DEPLOYPATH/assets
+    - /bin/chmod 755 $DEPLOYPATH/assets/files
+    - /bin/chmod 644 $DEPLOYPATH/assets/files/*.pdf
