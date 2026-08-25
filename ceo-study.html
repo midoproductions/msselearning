@@ -4,46 +4,149 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Terms of Service | Music Solutions School Accra</title>
-  <meta name="description" content="Terms of Service and enrollment conditions for students, recording studio bookings, and consultancies at Music Solutions School in Accra, Ghana.">
-  <meta name="keywords" content="terms of service, music school terms Accra, class enrollment conditions">
+  <title>Research & Studies | Music Solutions School</title>
+  <meta name="description" content="Read and download studies, including SOUND ENGINEERING AS CREATIVE PRACTICE IN GHANAIAN CHORAL MUSIC by Dominic Opare Ansa-Asare (Mido).">
+  <meta name="keywords" content="Research studies, Dominic Opare Ansa-Asare, Mido, choral music research, sound engineering, Ghanaian music study">
   <meta content="Music Solutions School" name="author">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Music Solutions School">
-  <meta property="og:title" content="Music Solutions School Accra">
-  <meta property="og:description" content="Premium music courses, studio services, and audio training in Accra, Ghana.">
+  <meta property="og:title" content="Research & Studies | Music Solutions School">
+  <meta property="og:description" content="View and download research studies and publications from Music Solutions School and Mido Productions.">
   <meta property="og:image" content="assets/img/favicon.png">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Music Solutions School Accra">
-  <meta name="twitter:description" content="Premium music courses, studio services, and audio training in Accra, Ghana.">
+  <meta name="twitter:title" content="Research & Studies | Music Solutions School">
+  <meta name="twitter:description" content="View and download research studies and publications from Music Solutions School and Mido Productions.">
   <meta name="theme-color" content="#0d6efd">
 
-  <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-
-  <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
-
-  <!-- Chatbot CSS -->
   <link href="assets/css/chatbot.css" rel="stylesheet">
 
+  <style>
+    .study-page .resource-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-top: 1.5rem;
+      margin-bottom: 1.8rem;
+    }
+
+    .study-page .resource-actions .btn-primary,
+    .study-page .resource-actions .btn-secondary {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 180px;
+      padding: 0.9rem 1.5rem;
+      border-radius: 999px;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .study-page .resource-actions .btn-primary {
+      background: linear-gradient(135deg, var(--accent-color), var(--accent-secondary));
+      color: #fff;
+    }
+
+    .study-page .resource-actions .btn-secondary {
+      background: rgba(15, 118, 110, 0.08);
+      color: var(--heading-color);
+      border: 1px solid rgba(15, 118, 110, 0.18);
+    }
+
+    .study-page .study-grid {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 1.5rem;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .study-page .study-card,
+    .study-page .future-study-card {
+      background: #fff;
+      border: 1px solid rgba(15, 118, 110, 0.12);
+      border-radius: 22px;
+      padding: 1.6rem;
+      box-shadow: 0 18px 45px rgba(15, 23, 42, 0.05);
+    }
+
+    .study-page .study-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      margin-bottom: 1rem;
+    }
+
+    .study-page .study-meta span {
+      display: inline-flex;
+      align-items: center;
+      padding: 0.45rem 0.8rem;
+      border-radius: 999px;
+      background: rgba(15, 118, 110, 0.08);
+      color: var(--accent-color);
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    .study-page .study-card h3,
+    .study-page .future-study-card h3 {
+      margin-bottom: 0.9rem;
+      font-size: 1.4rem;
+      line-height: 1.4;
+    }
+
+    .study-page .study-card p,
+    .study-page .future-study-card p {
+      color: rgba(35, 52, 71, 0.8);
+      margin-bottom: 0;
+    }
+
+    .study-page .pdf-frame {
+      border-radius: 22px;
+      overflow: hidden;
+      border: 1px solid rgba(15, 118, 110, 0.12);
+      box-shadow: 0 18px 45px rgba(15, 23, 42, 0.08);
+      background: #f8fafc;
+    }
+
+    .study-page .pdf-frame object {
+      width: 100%;
+      min-height: 1100px;
+      border: 0;
+      display: block;
+      background: #fff;
+    }
+
+    @media (max-width: 991px) {
+      .study-page .study-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 767px) {
+      .study-page .pdf-frame object {
+        min-height: 800px;
+      }
+    }
+  </style>
 </head>
 
-<body class="about-page">
+<body class="study-page">
 
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
@@ -63,11 +166,11 @@
             <ul>
               <li><a href="team.html">Our Team</a></li>
               <li><a href="service-details.html">Service Details</a></li>
-              <li><a href="ceo-study.html">CEO Study</a></li>
+              <li><a href="ceo-study.html" class="active">CEO Study</a></li>
               <li><a href="enquires.html">Enquires</a></li>
               <li><a href="faq.html">FAQ</a></li>
               <li><a href="gallery.html">Gallery</a></li>
-              <li><a href="terms.html" class="active">Terms</a></li>
+              <li><a href="terms.html">Terms</a></li>
               <li><a href="privacy.html">Privacy</a></li>
             </ul>
           </li>
@@ -77,47 +180,74 @@
       </nav>
 
       <a class="btn-getstarted" href="contact.html">Enroll Now</a>
-
     </div>
   </header>
 
   <main class="main">
 
-    <!-- Page Title -->
-    <div class="page-title" style="background-image: linear-gradient(rgba(11, 17, 32, 0.3), rgba(11, 17, 32, 0.72)), url('https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=1600&q=80');">
+    <div class="page-title" style="background-image: linear-gradient(rgba(11, 17, 32, 0.3), rgba(11, 17, 32, 0.72)), url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1600&q=80');">
       <div class="breadcrumbs">
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="index.html"><i class="bi bi-house"></i> Home</a></li>
-            <li class="breadcrumb-item active current">Terms of Service</li>
+            <li class="breadcrumb-item active current">CEO Study</li>
           </ol>
         </nav>
       </div>
 
       <div class="title-wrapper">
-        <h1>Terms of Service</h1>
-        <p>Please read these terms and conditions carefully before enrolling in our instrument courses, booking mixing packages, or hiring event management consultancies.</p>
+        <h1>Research & Studies</h1>
+        <p>Publications and reference studies that inform practice, creativity, and leadership in music and sound engineering.</p>
       </div>
-    </div><!-- End Page Title -->
+    </div>
 
-    <section class="about section">
-      <div class="container" data-aos="fade-up">
-        <div class="content">
-          <h2>Enrollment, Payment, & Cancellation Policies</h2>
-          <p>By registering at Music Solutions School or utilizing our digital booking portals, you agree to abide by our standard operational guidelines. Academic semesters consist of structured modules requiring full tuition clearances prior to the third weekly session.</p>
-          <p>Lessons missed by students are non-refundable, though makeup slots may be arranged if notice is submitted via our help desk at least 24 hours in advance. Studio sessions and consulting bookings must be paid in full to guarantee specific dates and engineering support.</p>
+    <section class="section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="section-title">
+          <span class="section-tag">Featured study</span>
+          <h2>SOUND ENGINEERING AS CREATIVE PRACTICE IN GHANAIAN CHORAL MUSIC</h2>
+          <p>A biographical-phenomenological study of Dominic Opare Ansa-Asare (Mido).</p>
         </div>
+
+        <div class="study-grid">
+          <div class="study-card">
+            <div class="study-meta">
+              <span>Research</span>
+              <span>Music</span>
+              <span>Audio</span>
+            </div>
+            <h3>SOUND ENGINEERING AS CREATIVE PRACTICE IN GHANAIAN CHORAL MUSIC: A BIOGRAPHICAL-PHENOMENOLOGICAL STUDY OF DOMINIC OPARE ANSA-ASARE (MIDO)</h3>
+            <p>This publication explores the role of sound engineering as a creative practice within Ghanaian choral music, tracing the lived experience and artistic contribution of Dominic Opare Ansa-Asare (Mido).</p>
+
+            <div class="resource-actions">
+              <a href="assets/files/Sound-engineering-article-Dominic-Ansa-Asare.pdf" class="btn-primary" target="_blank" rel="noopener noreferrer">View PDF</a>
+              <a href="assets/files/Sound-engineering-article-Dominic-Ansa-Asare.pdf" class="btn-secondary" download>Download PDF</a>
+            </div>
+          </div>
+
+          <div class="future-study-card">
+            <div class="study-meta">
+              <span>Library</span>
+            </div>
+            <h3>More studies coming soon</h3>
+            <p>This page is structured to accommodate additional publications and research materials as they are added over time.</p>
+          </div>
+        </div>
+
+       <!-- <div class="pdf-frame" aria-label="Study PDF viewer">
+          <object data="assets/files/Sound-engineering-article-Dominic-Ansa-Asare.pdf" type="application/pdf" aria-label="Research study PDF">
+            <p style="padding: 2rem; margin: 0; text-align: center; color: #334155;">Your browser does not support inline PDF viewing. Please download the PDF to read it.</p>
+          </object>
+        </div>-->
       </div>
     </section>
 
+
   </main>
 
-  <!-- Footer Section -->
   <footer id="footer" class="footer position-relative light-background">
-
     <div class="container footer-top">
       <div class="row gy-4">
-
         <div class="col-lg-4 col-md-6 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
             <img src="assets/img/logo.jpeg" alt="Music Solutions School logo" class="img-fluid" width="120" loading="lazy">
@@ -163,21 +293,12 @@
 
         <div class="col-lg-4 col-md-6 footer-logo text-center">
           <a href="index.html" class="d-inline-block mb-3">
-            <img
-              style="border-radius: 5px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);"
-              src="assets/img/logo.jpeg"
-              alt="Company Logo"
-              class="img-fluid"
-              loading="lazy"
-              width="200"
-            >
+            <img style="border-radius: 5px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);" src="assets/img/logo.jpeg" alt="Company Logo" class="img-fluid" loading="lazy" width="200">
           </a>
         </div>
-
       </div>
     </div>
 
-    <!--Copyright-->
     <div class="container copyright text-center mt-4">
       <p>
         © <span>Copyright</span>
@@ -188,22 +309,15 @@
         <small>Empowering Musical Journeys | Accra, Ghana</small>
       </div>
     </div>
-
   </footer>
 
-  <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Preloader -->
   <div id="preloader"></div>
 
-  <!-- Floating WhatsApp Icon -->
-  <!-- Floating Chat Widget (placeholder) -->
   <a href="https://wa.me/233244843666?text=Enquiry%20from%20Music%20Solutions%20School%20Website" class="whatsapp-float" title="Chat with us" aria-label="Chat on WhatsApp" target="_blank" rel="noopener noreferrer">
     <i class="bi bi-whatsapp"></i>
   </a>
 
-  <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
@@ -212,9 +326,7 @@
   <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-
-  <!-- Main JS File -->
-    <script src="assets/js/chatbot.js"></script>
+  <script src="assets/js/chatbot.js"></script>
   <script src="assets/js/main.js"></script>
 
 </body>
