@@ -4261,6 +4261,26 @@ section,
   z-index: 1;
 }
 
+.services .service-photo-wrapper {
+  width: 100%;
+  height: 180px;
+  margin-bottom: 25px;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.services .service-photo-wrapper img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.services-page #services .service-item .service-details,
+.services-page #services .service-item .service-details h5 {
+  padding-right: 0;
+}
+
 .services .service-details {
   position: relative;
   padding-right: 120px;
@@ -4911,6 +4931,10 @@ section,
     width: 60px;
     height: 60px;
     margin: 0 auto 20px;
+  }
+
+  .services .service-photo-wrapper {
+    height: 160px;
   }
 
   .services .service-icon-wrapper i {
