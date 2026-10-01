@@ -192,8 +192,30 @@
                       <input type="tel" id="phone" name="phone" class="form-control" placeholder="+233 24 484 3666" required>
                     </div>
                     <div class="col-md-6">
-                      <label for="subject" class="form-label">Subject</label>
-                      <input type="text" id="subject" name="subject" class="form-control" placeholder="Course enquiry, studio booking..." required>
+                      <label for="interest" class="form-label">I am interested in</label>
+                      <select id="interest" name="interest" class="form-control" required>
+                        <option value="">Select an option</option>
+                        <option value="Piano lessons">Piano lessons</option>
+                        <option value="Guitar lessons">Guitar lessons</option>
+                        <option value="Voice training">Voice training</option>
+                        <option value="Recording studio">Recording studio</option>
+                        <option value="Music consultancy">Music consultancy</option>
+                        <option value="General enquiry">General enquiry</option>
+                      </select>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="experience" class="form-label">Current level</label>
+                      <select id="experience" name="experience" class="form-control">
+                        <option value="">Select level</option>
+                        <option value="Beginner">Beginner</option>
+                        <option value="Intermediate">Intermediate</option>
+                        <option value="Advanced">Advanced</option>
+                        <option value="Professional">Professional</option>
+                      </select>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="preferred_time" class="form-label">Preferred contact time</label>
+                      <input type="text" id="preferred_time" name="preferred_time" class="form-control" placeholder="Morning, afternoon, or evening">
                     </div>
                     <div class="col-12">
                       <label for="message" class="form-label">Message</label>
