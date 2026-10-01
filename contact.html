@@ -84,7 +84,7 @@
   <main class="main">
 
     <!-- Page Title -->
-    <div class="page-title" style="background-image: linear-gradient(rgba(11, 17, 32, 0.3), rgba(11, 17, 32, 0.72)), url('https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=1600&q=80');">
+    <div class="page-title" style="background-image: linear-gradient(rgba(11, 17, 32, 0.3), rgba(11, 17, 32, 0.72)), url('assets/img/gallery/gallery-image-2.JPG');">
       <div class="breadcrumbs">
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
@@ -99,6 +99,7 @@
         <p>Get in touch with Music Solutions School today. We are happy to answer your enrollment queries, book recording studio sessions, or schedule physical classes.</p>
       </div>
     </div><!-- End Page Title -->
+    <div data-page-showcase></div>
 
     <!-- Contact Section -->
     <section id="contact" class="contact section">
@@ -171,11 +172,12 @@
 
             <div class="form-container">
               <h3>Send Us a Message</h3>
-              <p>Fill out the registration or inquiry form below and we will get back to you promptly.</p>
+              <p>Use the form below to ask about music lessons, studio sessions, instrument care, or a school and church partnership.</p>
+              <p>To help us direct your message, include the course or service you are interested in, your current experience, and any preferred days or project details.</p>
 
-              <!-- Microsoft Forms used for submissions. Replace the URL below with your form's share link. -->
               <div id="contact-form">
-                <form action="#" method="post" class="contact-form">
+                <form action="https://formsubmit.co/midoproductions@gmail.com" method="post" class="contact-form">
+                  <input type="hidden" name="_subject" value="Website enquiry">
                   <div class="row g-3">
                     <div class="col-md-6">
                       <label for="name" class="form-label">Name</label>
@@ -199,7 +201,7 @@
                     </div>
                     <div class="col-12">
                       <button type="submit" class="btn-primary btn-submit">Send Message</button>
-                      <small class="text-muted d-block mt-3">This form is currently a placeholder. Use the phone or WhatsApp number to reach us instantly.</small>
+                      <small class="text-muted d-block mt-3">Your message will be sent to midoproductions@gmail.com.</small>
                     </div>
                   </div>
                 </form>
@@ -363,6 +365,7 @@
     <script src="assets/js/chatbot.js"></script>
   <script src="assets/js/main.js"></script>
 
+  <script src="assets/js/page-showcase.js"></script>
 </body>
 
 </html>

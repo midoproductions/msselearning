@@ -61,6 +61,7 @@ body {
   color: var(--default-color);
   background-color: var(--background-color);
   font-family: var(--default-font);
+  font-size: 1.0625rem;
 }
 
 a {
@@ -6713,6 +6714,101 @@ section,
   padding-top: 60px;
   padding-bottom: 60px;
   /* Add your styles here */
+}
+
+.page-showcase {
+  overflow: hidden;
+}
+
+.page-showcase-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+  gap: 40px;
+  align-items: center;
+}
+
+.page-showcase-copy h2 {
+  margin: 12px 0;
+}
+
+.page-showcase-viewer {
+  min-width: 0;
+}
+
+.page-showcase-figure {
+  margin: 0;
+  overflow: hidden;
+  border-radius: 8px 8px 0 0;
+  background: var(--heading-color);
+}
+
+.page-showcase-image {
+  display: block;
+  width: 100%;
+  height: clamp(220px, 33vw, 420px);
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  transition: opacity 220ms ease;
+}
+
+.page-showcase-image.is-changing {
+  opacity: 0.45;
+}
+
+.page-showcase-caption {
+  padding: 14px 18px;
+  color: var(--contrast-color);
+  background: var(--heading-color);
+}
+
+.page-showcase-controls {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+  padding-top: 12px;
+}
+
+.page-showcase-control {
+  display: inline-grid;
+  width: 42px;
+  height: 42px;
+  place-items: center;
+  border: 1px solid color-mix(in srgb, var(--accent-color), transparent 65%);
+  border-radius: 50%;
+  color: var(--accent-color);
+  background: var(--surface-color);
+  cursor: pointer;
+}
+
+.page-showcase-control:hover,
+.page-showcase-control:focus-visible {
+  color: var(--contrast-color);
+  background: var(--accent-color);
+}
+
+.page-showcase-control:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--accent-color), transparent 55%);
+  outline-offset: 2px;
+}
+
+.page-showcase-count {
+  min-width: 42px;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 767px) {
+  .page-showcase-layout {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 22px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .page-showcase-image {
+    transition: none;
+  }
 }
 
 /*--------------------------------------------------------------
