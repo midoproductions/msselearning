@@ -1819,11 +1819,35 @@ section,
 
 @media (max-width: 576px) {
   .hero-slide {
-    min-height: 62vh;
+    min-height: 0;
+    padding: 7rem 0 3rem;
+    background-color: #0b1120;
+    background-size: 100% auto;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+
+  .hero-slide::before {
+    background: linear-gradient(180deg, rgba(2, 6, 23, 0.08) 0%, rgba(2, 6, 23, 0.55) 38%, rgba(2, 6, 23, 0.96) 72%, #0b1120 100%);
+  }
+
+  .hero-slide .content-box {
+    padding: 1rem;
+    border-radius: 18px;
   }
 
   .hero-slide h1 {
-    font-size: 1.85rem;
+    font-size: 1.55rem;
+  }
+
+  .hero-slide p {
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+  }
+
+  .hero-slide .cta-group .btn {
+    padding: 0.65rem 1rem;
+    font-size: 0.9rem;
   }
 
   .hero-carousel .carousel-control-prev,
